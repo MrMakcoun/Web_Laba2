@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="sources/styles/styles.css">
+</head>
+<body>
+    <svg hidden aria-hidden="true" focusable="false">
+        <symbol id="icon-arrow" viewBox="0 0 21 20">
+            <path d="M0.75 13.6956C0.0325611 14.1098 -0.213252 15.0272 0.200962 15.7446C0.615175 16.4621 1.53256 16.7079 2.25 16.2937L1.5 14.9946L0.75 13.6956ZM1.5 14.9946L2.25 16.2937L19.5705 6.29367L18.8205 4.99463L18.0705 3.69559L0.75 13.6956L1.5 14.9946ZM20.2694 5.38286C20.4838 4.58266 20.0089 3.76015 19.2087 3.54574L6.16874 0.051683C5.36854 -0.16273 4.54603 0.312144 4.33162 1.11234C4.11721 1.91254 4.59208 2.73505 5.39228 2.94946L16.9834 6.05529L13.8776 17.6464C13.6631 18.4466 14.138 19.2691 14.9382 19.4835C15.7384 19.6979 16.5609 19.2231 16.7753 18.4229L20.2694 5.38286Z" fill="currentColor"/>
+        </symbol>
+        <symbol id="icon-star" viewBox="0 0 14 14">
+            <path d="M7.0099 2.05941L14 0L11.9604 7.0099L14 14L7.0099 11.9604L0 14L2.05941 7.0099L0 0L7.0099 2.05941Z" fill="currentColor"/>
+        </symbol>
+        <symbol id="icon-arrow-left" viewBox="0 0 20 14">
+            <path d="M19 7H1M7 1L1 7l6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </symbol>
+        <symbol id="icon-arrow-right" viewBox="0 0 20 14">
+            <path d="M1 7h18M13 1l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </symbol>
+    </svg>
+
+    <header class="header container">
+        <a class="header__logo" href="index.html"><img src="sources/images/logos/positivus-logo.svg" alt="Positivus" width="220" height="56"></a>
+        <nav class="header__nav nav" aria-label="Main">
+            <ul class="nav__list">
+                <li class="nav__item"><a class="nav__link" href="services.html">Услуги</a></li>
+                <li class="nav__item"><a class="nav__link" href="use-cases.html">Врачи</a></li>
+            </ul>
+        </nav>
+        <a class="header__button button button_theme_outline" href="contact-us.html">Запись</a>
+    </header>
+
+    <main>
+        <section class="services container" id="services">
+            <div class="section-header">
+                <h2 class="section-header__title">Услуги</h2>
+                <p class="section-header__text">At our digital marketing agency, we offer a range of services to help businesses grow and succeed online. These services include:</p>
+            </div>
+
+            <ul class="services__list">
+                <li class="services__item">
+                    <article class="service-card service-card_theme_grey">
+                        <h3 class="service-card__title"><span class="service-card__title-text">Search engine optimization</span></h3>
+                        <img class="service-card__image" src="sources/images/pictures/search-engine-pic.png" alt="" width="210" height="170" loading="lazy">
+                        <a class="service-card__link" href="#" aria-label="Learn more about Search engine optimization">
+                            <span class="service-card__icon" aria-hidden="true"><svg width="21" height="20"><use href="#icon-arrow"></use></svg></span>
+                            <span class="service-card__link-text">Learn more</span>
+                        </a>
+                    </article>
+                </li>
+
+                <li class="services__item">
+                    <article class="service-card service-card_theme_green">
+                        <h3 class="service-card__title"><span class="service-card__title-text">Pay-per-click advertising</span></h3>
+                        <img class="service-card__image" src="sources/images/pictures/pay-per-click-pic.png" alt="" width="210" height="148" loading="lazy">
+                        <a class="service-card__link" href="#" aria-label="Learn more about Pay-per-click advertising">
+                            <span class="service-card__icon" aria-hidden="true"><svg width="21" height="20"><use href="#icon-arrow"></use></svg></span>
+                            <span class="service-card__link-text">Learn more</span>
+                        </a>
+                    </article>
+                </li>
+
+                <li class="services__item">
+                    <article class="service-card service-card_theme_dark">
+                        <h3 class="service-card__title"><span class="service-card__title-text">Social Media Marketing</span></h3>
+                        <img class="service-card__image" src="sources/images/pictures/social-media-pic.png" alt="" width="210" height="210" loading="lazy">
+                        <a class="service-card__link" href="#" aria-label="Learn more about Social Media Marketing">
+                            <span class="service-card__icon" aria-hidden="true"><svg width="21" height="20"><use href="#icon-arrow"></use></svg></span>
+                            <span class="service-card__link-text">Learn more</span>
+                        </a>
+                    </article>
+                </li>
+
+                <li class="services__item">
+                    <article class="service-card service-card_theme_grey">
+                        <h3 class="service-card__title"><span class="service-card__title-text">Email Marketing</span></h3>
+                        <img class="service-card__image" src="sources/images/pictures/email-marketing-pic.png" alt="" width="210" height="193" loading="lazy">
+                        <a class="service-card__link" href="#" aria-label="Learn more about Email Marketing">
+                            <span class="service-card__icon" aria-hidden="true"><svg width="21" height="20"><use href="#icon-arrow"></use></svg></span>
+                            <span class="service-card__link-text">Learn more</span>
+                        </a>
+                    </article>
+                </li>
+
+                <li class="services__item">
+                    <article class="service-card service-card_theme_green">
+                        <h3 class="service-card__title"><span class="service-card__title-text">Content Creation</span></h3>
+                        <img class="service-card__image" src="sources/images/pictures/content-creation-pic.png" alt="" width="210" height="196" loading="lazy">
+                        <a class="service-card__link" href="#" aria-label="Learn more about Content Creation">
+                            <span class="service-card__icon" aria-hidden="true"><svg width="21" height="20"><use href="#icon-arrow"></use></svg></span>
+                            <span class="service-card__link-text">Learn more</span>
+                        </a>
+                    </article>
+                </li>
+
+                <li class="services__item">
+                    <article class="service-card service-card_theme_dark service-card_label_green">
+                        <h3 class="service-card__title"><span class="service-card__title-text">Analytics and Tracking</span></h3>
+                        <img class="service-card__image" src="sources/images/pictures/analytics-tracking-pic.png" alt="" width="210" height="170" loading="lazy">
+                        <a class="service-card__link" href="#" aria-label="Learn more about Analytics and Tracking">
+                            <span class="service-card__icon" aria-hidden="true"><svg width="21" height="20"><use href="#icon-arrow"></use></svg></span>
+                            <span class="service-card__link-text">Learn more</span>
+                        </a>
+                    </article>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="footer container">
+        <div class="footer__content">
+            <div class="footer__top">
+                <a class="footer__logo" href="#"><img src="sources/images/logos/positivus-logo-white.svg" alt="Positivus" width="180" height="29"></a>
+                <nav class="footer__nav nav nav_theme_dark" aria-label="Footer">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a class="nav__link" href="#">About us</a></li>
+                        <li class="nav__item"><a class="nav__link" href="#services">Services</a></li>
+                        <li class="nav__item"><a class="nav__link" href="#case-studies">Use Cases</a></li>
+                        <li class="nav__item"><a class="nav__link" href="#">Pricing</a></li>
+                        <li class="nav__item"><a class="nav__link" href="#">Blog</a></li>
+                    </ul>
+                </nav>
+                <ul class="footer__social">
+                    <li class="footer__social-item"><a href="#"><img src="sources/images/icons/linkedin-icon-white.svg" alt="Positivus on LinkedIn" width="30" height="30"></a></li>
+                    <li class="footer__social-item"><a href="#"><img src="sources/images/icons/facebook-icon.svg" alt="Positivus on Facebook" width="30" height="30"></a></li>
+                    <li class="footer__social-item"><a href="#"><img src="sources/images/icons/twitter-icon.svg" alt="Positivus on Twitter" width="30" height="30"></a></li>
+                </ul>
+            </div>
+
+            <div class="footer__middle">
+                <div class="footer__contacts">
+                    <h2 class="footer__title">Contact us:</h2>
+                    <address class="footer__address">
+                        <p class="footer__text">Email: <a class="footer__link" href="mailto:info@positivus.com">info@positivus.com</a></p>
+                        <p class="footer__text">Phone: <a class="footer__link" href="tel:+15555678901">555-567-8901</a></p>
+                        <p class="footer__text">Address: 1234 Main St<br>Moonstone City, Stardust State 12345</p>
+                    </address>
+                </div>
+
+                <form class="subscription" action="#" method="post" name="subscription-form">
+                    <label class="visually-hidden" for="subscription-email">Email</label>
+                    <input class="subscription__input" type="email" id="subscription-email" name="email" placeholder="Email" autocomplete="email" required>
+                    <button class="subscription__button button button_theme_green" type="submit">Subscribe to news</button>
+                </form>
+            </div>
+
+            <div class="footer__bottom">
+                <p class="footer__copyright">© 2023 Positivus. All Rights Reserved.</p>
+                <a class="footer__link footer__link_underline" href="#">Privacy Policy</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Use Cases</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="sources/styles/styles.css">
+</head>
+<body>
+    <svg hidden aria-hidden="true" focusable="false">
+        <symbol id="icon-arrow" viewBox="0 0 21 20">
+            <path d="M0.75 13.6956C0.0325611 14.1098 -0.213252 15.0272 0.200962 15.7446C0.615175 16.4621 1.53256 16.7079 2.25 16.2937L1.5 14.9946L0.75 13.6956ZM1.5 14.9946L2.25 16.2937L19.5705 6.29367L18.8205 4.99463L18.0705 3.69559L0.75 13.6956L1.5 14.9946ZM20.2694 5.38286C20.4838 4.58266 20.0089 3.76015 19.2087 3.54574L6.16874 0.051683C5.36854 -0.16273 4.54603 0.312144 4.33162 1.11234C4.11721 1.91254 4.59208 2.73505 5.39228 2.94946L16.9834 6.05529L13.8776 17.6464C13.6631 18.4466 14.138 19.2691 14.9382 19.4835C15.7384 19.6979 16.5609 19.2231 16.7753 18.4229L20.2694 5.38286Z" fill="currentColor"/>
+        </symbol>
+        <symbol id="icon-star" viewBox="0 0 14 14">
+            <path d="M7.0099 2.05941L14 0L11.9604 7.0099L14 14L7.0099 11.9604L0 14L2.05941 7.0099L0 0L7.0099 2.05941Z" fill="currentColor"/>
+        </symbol>
+        <symbol id="icon-arrow-left" viewBox="0 0 20 14">
+            <path d="M19 7H1M7 1L1 7l6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </symbol>
+        <symbol id="icon-arrow-right" viewBox="0 0 20 14">
+            <path d="M1 7h18M13 1l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </symbol>
+    </svg>
+
+    <header class="header container">
+        <a class="header__logo" href="index.html"><img src="sources/images/logos/positivus-logo.svg" alt="Positivus" width="220" height="56"></a>
+        <nav class="header__nav nav" aria-label="Main">
+            <ul class="nav__list">
+                <li class="nav__item"><a class="nav__link" href="services.html">Услуги</a></li>
+                <li class="nav__item"><a class="nav__link" href="use-cases.html">Врачи</a></li>
+            </ul>
+        </nav>
+        <a class="header__button button button_theme_outline" href="contact-us.html">Запись</a>
+    </header>
+
+    <main>
+        <section class="team container" id="team">
+            <div class="section-header">
+                <h2 class="section-header__title">Врачи</h2>
+                <p class="section-header__text">Meet the skilled and experienced team behind our successful digital marketing strategies</p>
+            </div>
+
+            <ul class="team__list">
+                <li class="team__item">
+                    <article class="team-card">
+                        <div class="team-card__person">
+                            <img class="team-card__photo" src="sources/images/team/first-team-member-pic.png" alt="" width="106" height="103" loading="lazy">
+                            <div class="team-card__info">
+                                <h3 class="team-card__name">John Smith</h3>
+                                <p class="team-card__position">CEO and Founder</p>
+                            </div>
+                            <a class="team-card__social" href="#"><img src="sources/images/icons/linkedin-icon.svg" alt="John Smith on LinkedIn" width="34" height="34"></a>
+                        </div>
+                        <p class="team-card__bio">10+ years of experience in digital marketing. Expertise in SEO, PPC, and content strategy</p>
+                    </article>
+                </li>
+
+                <li class="team__item">
+                    <article class="team-card">
+                        <div class="team-card__person">
+                            <img class="team-card__photo" src="sources/images/team/second-team-member-pic.png" alt="" width="103" height="103" loading="lazy">
+                            <div class="team-card__info">
+                                <h3 class="team-card__name">Jane Doe</h3>
+                                <p class="team-card__position">Director of Operations</p>
+                            </div>
+                            <a class="team-card__social" href="#"><img src="sources/images/icons/linkedin-icon.svg" alt="Jane Doe on LinkedIn" width="34" height="34"></a>
+                        </div>
+                        <p class="team-card__bio">7+ years of experience in project management and team leadership. Strong organizational and communication skills</p>
+                    </article>
+                </li>
+
+                <li class="team__item">
+                    <article class="team-card">
+                        <div class="team-card__person">
+                            <img class="team-card__photo" src="sources/images/team/third-team-member-pic.png" alt="" width="103" height="103" loading="lazy">
+                            <div class="team-card__info">
+                                <h3 class="team-card__name">Michael Brown</h3>
+                                <p class="team-card__position">Senior SEO Specialist</p>
+                            </div>
+                            <a class="team-card__social" href="#"><img src="sources/images/icons/linkedin-icon.svg" alt="Michael Brown on LinkedIn" width="34" height="34"></a>
+                        </div>
+                        <p class="team-card__bio">5+ years of experience in SEO and content creation. Proficient in keyword research and on-page optimization</p>
+                    </article>
+                </li>
+
+                <li class="team__item">
+                    <article class="team-card">
+                        <div class="team-card__person">
+                            <img class="team-card__photo" src="sources/images/team/fourth-team-member-pic.png" alt="" width="103" height="103" loading="lazy">
+                            <div class="team-card__info">
+                                <h3 class="team-card__name">Emily Johnson</h3>
+                                <p class="team-card__position">PPC Manager</p>
+                            </div>
+                            <a class="team-card__social" href="#"><img src="sources/images/icons/linkedin-icon.svg" alt="Emily Johnson on LinkedIn" width="34" height="34"></a>
+                        </div>
+                        <p class="team-card__bio">3+ years of experience in paid search advertising. Skilled in campaign management and performance analysis</p>
+                    </article>
+                </li>
+
+                <li class="team__item">
+                    <article class="team-card">
+                        <div class="team-card__person">
+                            <img class="team-card__photo" src="sources/images/team/fifth-team-member-pic.png" alt="" width="103" height="103" loading="lazy">
+                            <div class="team-card__info">
+                                <h3 class="team-card__name">Brian Williams</h3>
+                                <p class="team-card__position">Social Media Specialist</p>
+                            </div>
+                            <a class="team-card__social" href="#"><img src="sources/images/icons/linkedin-icon.svg" alt="Brian Williams on LinkedIn" width="34" height="34"></a>
+                        </div>
+                        <p class="team-card__bio">4+ years of experience in social media marketing. Proficient in creating and scheduling content, analyzing metrics, and building engagement</p>
+                    </article>
+                </li>
+
+                <li class="team__item">
+                    <article class="team-card">
+                        <div class="team-card__person">
+                            <img class="team-card__photo" src="sources/images/team/sixth-team-member-pic.png" alt="" width="103" height="103" loading="lazy">
+                            <div class="team-card__info">
+                                <h3 class="team-card__name">Sarah Kim</h3>
+                                <p class="team-card__position">Content Creator</p>
+                            </div>
+                            <a class="team-card__social" href="#"><img src="sources/images/icons/linkedin-icon.svg" alt="Sarah Kim on LinkedIn" width="34" height="34"></a>
+                        </div>
+                        <p class="team-card__bio">2+ years of experience in writing and editing. Skilled in creating compelling, SEO-optimized content for various industries</p>
+                    </article>
+                </li>
+            </ul>
+
+            <a class="team__button button button_theme_dark" href="#">See all team</a>
+        </section>
+
+    </main>
+
+    <footer class="footer container">
+        <div class="footer__content">
+            <div class="footer__top">
+                <a class="footer__logo" href="#"><img src="sources/images/logos/positivus-logo-white.svg" alt="Positivus" width="180" height="29"></a>
+                <nav class="footer__nav nav nav_theme_dark" aria-label="Footer">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a class="nav__link" href="#">About us</a></li>
+                        <li class="nav__item"><a class="nav__link" href="#services">Services</a></li>
+                        <li class="nav__item"><a class="nav__link" href="#case-studies">Use Cases</a></li>
+                        <li class="nav__item"><a class="nav__link" href="#">Pricing</a></li>
+                        <li class="nav__item"><a class="nav__link" href="#">Blog</a></li>
+                    </ul>
+                </nav>
+                <ul class="footer__social">
+                    <li class="footer__social-item"><a href="#"><img src="sources/images/icons/linkedin-icon-white.svg" alt="Positivus on LinkedIn" width="30" height="30"></a></li>
+                    <li class="footer__social-item"><a href="#"><img src="sources/images/icons/facebook-icon.svg" alt="Positivus on Facebook" width="30" height="30"></a></li>
+                    <li class="footer__social-item"><a href="#"><img src="sources/images/icons/twitter-icon.svg" alt="Positivus on Twitter" width="30" height="30"></a></li>
+                </ul>
+            </div>
+
+            <div class="footer__middle">
+                <div class="footer__contacts">
+                    <h2 class="footer__title">Contact us:</h2>
+                    <address class="footer__address">
+                        <p class="footer__text">Email: <a class="footer__link" href="mailto:info@positivus.com">info@positivus.com</a></p>
+                        <p class="footer__text">Phone: <a class="footer__link" href="tel:+15555678901">555-567-8901</a></p>
+                        <p class="footer__text">Address: 1234 Main St<br>Moonstone City, Stardust State 12345</p>
+                    </address>
+                </div>
+
+                <form class="subscription" action="#" method="post" name="subscription-form">
+                    <label class="visually-hidden" for="subscription-email">Email</label>
+                    <input class="subscription__input" type="email" id="subscription-email" name="email" placeholder="Email" autocomplete="email" required>
+                    <button class="subscription__button button button_theme_green" type="submit">Subscribe to news</button>
+                </form>
+            </div>
+
+            <div class="footer__bottom">
+                <p class="footer__copyright">© 2023 Positivus. All Rights Reserved.</p>
+                <a class="footer__link footer__link_underline" href="#">Privacy Policy</a>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
