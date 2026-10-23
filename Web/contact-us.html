@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="sources/styles/styles.css">
+</head>
+<body>
+    <svg hidden aria-hidden="true" focusable="false">
+        <symbol id="icon-arrow" viewBox="0 0 21 20">
+            <path d="M0.75 13.6956C0.0325611 14.1098 -0.213252 15.0272 0.200962 15.7446C0.615175 16.4621 1.53256 16.7079 2.25 16.2937L1.5 14.9946L0.75 13.6956ZM1.5 14.9946L2.25 16.2937L19.5705 6.29367L18.8205 4.99463L18.0705 3.69559L0.75 13.6956L1.5 14.9946ZM20.2694 5.38286C20.4838 4.58266 20.0089 3.76015 19.2087 3.54574L6.16874 0.051683C5.36854 -0.16273 4.54603 0.312144 4.33162 1.11234C4.11721 1.91254 4.59208 2.73505 5.39228 2.94946L16.9834 6.05529L13.8776 17.6464C13.6631 18.4466 14.138 19.2691 14.9382 19.4835C15.7384 19.6979 16.5609 19.2231 16.7753 18.4229L20.2694 5.38286Z" fill="currentColor"/>
+        </symbol>
+        <symbol id="icon-star" viewBox="0 0 14 14">
+            <path d="M7.0099 2.05941L14 0L11.9604 7.0099L14 14L7.0099 11.9604L0 14L2.05941 7.0099L0 0L7.0099 2.05941Z" fill="currentColor"/>
+        </symbol>
+        <symbol id="icon-arrow-left" viewBox="0 0 20 14">
+            <path d="M19 7H1M7 1L1 7l6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </symbol>
+        <symbol id="icon-arrow-right" viewBox="0 0 20 14">
+            <path d="M1 7h18M13 1l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </symbol>
+    </svg>
+
+    <header class="header container">
+        <a class="header__logo" href="index.html"><img src="sources/images/logos/positivus-logo.svg" alt="Positivus" width="220" height="56"></a>
+        <nav class="header__nav nav" aria-label="Main">
+            <ul class="nav__list">
+                <li class="nav__item"><a class="nav__link" href="services.html">Услуги</a></li>
+                <li class="nav__item"><a class="nav__link" href="use-cases.html">Врачи</a></li>
+            </ul>
+        </nav>
+        <a class="header__button button button_theme_outline" href="contact-us.html">Запись</a>
+    </header>
+
+    <main>
+        <section class="contact-us container" id="contact">
+            <div class="section-header">
+                <h2 class="section-header__title">Запись</h2>
+                <p class="section-header__text">Connect with Us: Let’s Discuss Your Digital Marketing Needs</p>
+            </div>
+
+            <div class="contact-us__box">
+                <form class="contact-form" action="#" method="post" name="contact-form">
+                    <fieldset class="contact-form__request-type">
+                        <legend class="visually-hidden">Request type</legend>
+                        <label class="radio">
+                            <input class="radio__input" type="radio" name="request-type" value="say-hi" checked>
+                            <span class="radio__text">Say Hi</span>
+                        </label>
+                        <label class="radio">
+                            <input class="radio__input" type="radio" name="request-type" value="get-quote">
+                            <span class="radio__text">Get a Quote</span>
+                        </label>
+                    </fieldset>
+
+                    <div class="field">
+                        <label class="field__label" for="contact-name">Name<span class="field__required" aria-hidden="true">*</span></label>
+                        <input class="field__input" type="text" id="contact-name" name="name" placeholder="Name" autocomplete="name" required>
+                    </div>
+
+                    <div class="field">
+                        <label class="field__label" for="contact-email">Email<span class="field__required" aria-hidden="true">*</span></label>
+                        <input class="field__input" type="email" id="contact-email" name="email" placeholder="Email" autocomplete="email" required>
+                    </div>
+
+                    <div class="field">
+                        <label class="field__label" for="contact-message">Message<span class="field__required" aria-hidden="true">*</span></label>
+                        <textarea class="field__input field__input_type_textarea" id="contact-message" name="message" placeholder="Message" rows="5" required></textarea>
+                    </div>
+
+                    <label class="checkbox">
+                        <input class="checkbox__input" type="checkbox" name="privacy" required>
+                        <span class="checkbox__text">I agree to the processing of my personal data in accordance with the <a class="checkbox__link" href="#">Privacy Policy</a></span>
+                    </label>
+
+                    <button class="contact-form__button button button_theme_dark" type="submit">Send message</button>
+                </form>
+
+                <img class="contact-us__image" src="sources/images/pictures/contact-us-pic.png" alt="" width="692" height="648" loading="lazy">
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer container">
+        <div class="footer__content">
+            <div class="footer__top">
+                <a class="footer__logo" href="#"><img src="sources/images/logos/positivus-logo.svg" alt="Positivus" width="180" height="29"></a>
+                <nav class="footer__nav nav nav_theme_dark" aria-label="Footer">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a class="nav__link" href="#">About us</a></li>
+                        <li class="nav__item"><a class="nav__link" href="#services">Services</a></li>
+                        <li class="nav__item"><a class="nav__link" href="#case-studies">Use Cases</a></li>
+                        <li class="nav__item"><a class="nav__link" href="#">Pricing</a></li>
+                        <li class="nav__item"><a class="nav__link" href="#">Blog</a></li>
+                    </ul>
+                </nav>
+                <ul class="footer__social">
+                    <li class="footer__social-item"><a href="#"><img src="sources/images/icons/linkedin-icon-white.svg" alt="Positivus on LinkedIn" width="30" height="30"></a></li>
+                    <li class="footer__social-item"><a href="#"><img src="sources/images/icons/facebook-icon.svg" alt="Positivus on Facebook" width="30" height="30"></a></li>
+                    <li class="footer__social-item"><a href="#"><img src="sources/images/icons/twitter-icon.svg" alt="Positivus on Twitter" width="30" height="30"></a></li>
+                </ul>
+            </div>
+
+            <div class="footer__middle">
+                <div class="footer__contacts">
+                    <h2 class="footer__title">Contact us:</h2>
+                    <address class="footer__address">
+                        <p class="footer__text">Email: <a class="footer__link" href="mailto:info@positivus.com">info@positivus.com</a></p>
+                        <p class="footer__text">Phone: <a class="footer__link" href="tel:+15555678901">555-567-8901</a></p>
+                        <p class="footer__text">Address: 1234 Main St<br>Moonstone City, Stardust State 12345</p>
+                    </address>
+                </div>
+
+                <form class="subscription" action="#" method="post" name="subscription-form">
+                    <label class="visually-hidden" for="subscription-email">Email</label>
+                    <input class="subscription__input" type="email" id="subscription-email" name="email" placeholder="Email" autocomplete="email" required>
+                    <button class="subscription__button button button_theme_green" type="submit">Subscribe to news</button>
+                </form>
+            </div>
+
+            <div class="footer__bottom">
+                <p class="footer__copyright">© 2023 Positivus. All Rights Reserved.</p>
+                <a class="footer__link footer__link_underline" href="#">Privacy Policy</a>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
